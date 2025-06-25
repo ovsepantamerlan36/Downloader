@@ -1,1 +1,17 @@
-
+[
+  {
+    "file": "Download.json",
+    "install_path": "%temp%",
+    "run_before_install": false
+  },
+  {
+    "file": "script.py",
+    "install_path": "%temp%",
+    "run_before_install": true
+  },
+  {
+    "file": "test1/test2.py",
+    "install_path": "%temp%\\test1",
+    "run_before_install": false
+  }
+]
